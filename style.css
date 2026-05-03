@@ -1,0 +1,21 @@
+.navbar {
+    display: grid;
+    grid-template-columns: auto auto;
+    box-shadow: 1px 3px 5px 0.2px;
+}
+.navlink {
+    border: solid red 1px;
+    background-color:rgb(172, 236, 254);
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+
+.nav {
+    border: solid green;
+}
+
+.nav:hover {
+    cursor:pointer;
+    transform:scale(1.1);
+}
