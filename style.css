@@ -1,0 +1,47 @@
+.nav {
+    background-color: rgb(219, 215, 215);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.navilink {
+    text-decoration: none;
+    color: black;
+}
+
+.navlink:hover {
+    text-decoration: underline 10px;
+    color: rgb(62, 130, 136);
+}
+
+.navlink:hover {
+    transform: scale(1.1);
+}
+
+
+/*Class Buttons*/
+
+.lessbutt {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+}
+
+.classes {
+    background-color: yellow;
+    border: none;
+    padding: 10px;
+    box-shadow: 6px 5px; 
+    margin-top: 15px;
+}
+
+.classes:hover {
+    transform: scale(1.05);
+    box-shadow: 3px 2px 4px;
+}
+
+.classbutt {
+    text-decoration: none;
+    color: black;
+}
