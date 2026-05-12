@@ -1,21 +1,47 @@
-.navbar {
-    display: grid;
-    grid-template-columns: auto auto;
-    box-shadow: 1px 3px 5px 0.2px;
-}
-.navlink {
-    border: solid red 1px;
-    background-color:rgb(172, 236, 254);
-    display: flex;
-    flex-direction: row;
-    justify-content:space-evenly;
-}
-
 .nav {
-    border: solid green;
+    background-color: rgb(219, 215, 215);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
 }
 
-.nav:hover {
-    cursor:pointer;
-    transform:scale(1.1);
+.navilink {
+    text-decoration: none;
+    color: black;
+}
+
+.navlink:hover {
+    text-decoration: underline 10px;
+    color: rgb(62, 130, 136);
+}
+
+.navlink:hover {
+    transform: scale(1.1);
+}
+
+
+/*Class Buttons*/
+
+.lessbutt {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+}
+
+.classes {
+    background-color: yellow;
+    border: none;
+    padding: 10px;
+    box-shadow: 6px 5px; 
+    margin-top: 15px;
+}
+
+.classes:hover {
+    transform: scale(1.05);
+    box-shadow: 3px 2px 4px;
+}
+
+.classbutt {
+    text-decoration: none;
+    color: black;
 }
