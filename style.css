@@ -32,6 +32,7 @@ body {
 .navlink:hover {
     text-decoration: underline 10px;
     color: rgb(62, 130, 136);
+    cursor: pointer;
 }
 
 .navlink:hover {
@@ -83,6 +84,7 @@ body {
 .backbutt:hover {
     box-shadow: 1px 1px 0px;
     transform: scale(1.05);
+    cursor: pointer;
 }
 
 .forbutt {
@@ -96,6 +98,7 @@ body {
 .forbutt:hover {
     box-shadow: 1px 1px 0px;
     transform: scale(1.05);
+    cursor: pointer;
 }
 
 /*Home Blocks*/
