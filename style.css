@@ -67,22 +67,36 @@ body {
 
 /*Back Button*/
 
+.forbackbutt {
+    display: flex;
+    justify-content: space-between;
+}
+
 .backbutt {
     background-color: yellow;
     border: solid black;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
-    display: flex;
-    justify-self: flex-end;
-    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .backbutt:hover {
     box-shadow: 1px 1px 0px;
     transform: scale(1.05);
-    justify-self: end;
 }
 
+.forbutt {
+    background-color: yellow;
+    border: solid black;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-right: 10px;
+}
+
+.forbutt:hover {
+    box-shadow: 1px 1px 0px;
+    transform: scale(1.05);
+}
 
 /*Home Blocks*/
 
@@ -94,5 +108,4 @@ body {
     margin-top: 10px;
     margin-left: 20px;
     width: 80%;
-    border-color: 
 }
