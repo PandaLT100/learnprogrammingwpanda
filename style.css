@@ -1,13 +1,32 @@
+body {
+    margin: 0px;
+    background-color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:medium;
+}
+
 .nav {
     background-color: rgb(219, 215, 215);
+    border-bottom: solid black 4px;
     display: flex;
     justify-content: space-evenly;
+    align-content: center;
     padding: 20px;
+}
+
+.navo {
+    justify-self: start;
+    cursor:default;
 }
 
 .navilink {
     text-decoration: none;
     color: black;
+}
+
+.navlink {
+    align-content: center;
+    margin-left: 5px;
 }
 
 .navlink:hover {
@@ -44,4 +63,36 @@
 .classbutt {
     text-decoration: none;
     color: black;
+}
+
+/*Back Button*/
+
+.backbutt {
+    background-color: yellow;
+    border: solid black;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    display: flex;
+    justify-self: flex-end;
+    margin-right: 10px;
+}
+
+.backbutt:hover {
+    box-shadow: 1px 1px 0px;
+    transform: scale(1.05);
+    justify-self: end;
+}
+
+
+/*Home Blocks*/
+
+.homeblock {
+    background-color: rgba(248, 161, 0, 0.761);
+    align-content: center;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 80%;
+    border-color: 
 }
