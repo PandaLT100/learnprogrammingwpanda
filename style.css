@@ -112,3 +112,35 @@ body {
     margin-left: 20px;
     width: 80%;
 }
+
+/*Sidebar*/
+
+.sidebar {
+    font-size: 15px;
+    background-color: orange;
+    width: 20%;
+}
+
+.lesslisb {
+    color: black;
+    text-decoration: none;
+    
+}
+
+
+/*Lessons*/
+
+.lesson-title {
+    display: flex;
+    justify-content: center;
+}
+
+.the-lesson {
+    background-color: rgb(200, 200, 200);
+    width: 90%;
+    margin: auto;
+    border-radius: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding: 10px;
+}
