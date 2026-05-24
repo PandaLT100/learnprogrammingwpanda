@@ -6,8 +6,8 @@ body {
 }
 
 .nav {
-    background-color: #8CC0EB;
-    border-bottom: solid black 4px;
+    background-color:white;
+    border-bottom: solid #113F67 10px;
     display: flex;
     justify-content: space-evenly;
     align-content: center;
@@ -31,7 +31,7 @@ body {
 
 .navlink:hover {
     text-decoration: underline 10px;
-    color: orange;
+    color: #87C0CD;
     cursor: pointer;
 }
 
@@ -49,21 +49,29 @@ body {
 }
 
 .classes {
-    background-color: yellow;
+    background-color: #113F67;
+    font-size: 15px;
+    max-width: 200px;
+    height: auto;
+    color: white;
     border: none;
     padding: 10px;
     box-shadow: 6px 5px; 
     margin-top: 15px;
 }
 
+
+
 .classes:hover {
     transform: scale(1.05);
-    box-shadow: 3px 2px 4px;
+    box-shadow: 2px 0.5px 1px;
 }
 
 .classbutt {
     text-decoration: none;
-    color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
 }
 
 /*Back and Forward Button*/
@@ -74,7 +82,10 @@ body {
 }
 
 .backbutt {
-    background-color: #FFF9D2;
+    background-color: #87C0CD;
+    height: 30px;
+    width: auto;
+    font-size: 15px;
     border: solid black;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
@@ -82,13 +93,14 @@ body {
 }
 
 .backbutt:hover {
+    background-color: #96d7e6;
     box-shadow: 1px 1px 0px;
     transform: scale(1.05);
     cursor: pointer;
 }
 
 .forbutt {
-    background-color: #FFF9D2;
+    background-color: #87C0CD;
     border: solid black;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
@@ -96,6 +108,7 @@ body {
 }
 
 .forbutt:hover {
+    background-color: #96d7e6;
     box-shadow: 1px 1px 0px;
     transform: scale(1.05);
     cursor: pointer;
@@ -104,7 +117,8 @@ body {
 /*Home Blocks*/
 
 .homeblock {
-    background-color: rgba(248, 161, 0, 0.761);
+    justify-self: center;
+    background-color: #87C0CD;
     align-content: center;
     border-radius: 10px;
     padding: 20px;
@@ -113,25 +127,32 @@ body {
     width: 80%;
 }
 
+.hbhead {
+    text-align: center;
+}
+
 /*Sidebar*/
 
 .sidebar {
     font-size: 15px;
-    background-color: orange;
+    background-color: #e0f4fa;
     width: 20%;
     margin-right: 10px;
     margin-left: 5px;
     text-align: center;
     padding: 5px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    /*overflow: scroll;*/
+    max-height: 660px;
+    overflow:auto;
 }
 
 .lesslisb {
     color: black;
     text-decoration: none;
-    
+    margin-bottom: 2px;
+}
+
+.lesslisb:hover {
+    color: blue;
 }
 
 .lesswbar {
@@ -147,23 +168,47 @@ body {
     justify-content: center;
 }
 
+.lesshead {
+    text-align: center;
+    margin-top: 40px;
+}
+
 .the-lesson {
-    background-color: #FFF9D2;
+    background-color: white;
     width: 90%;
     margin: auto;
-    border-radius: 0px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
     padding: 10px;
+    max-height: 660px;
+    overflow: scroll;
 }
 
 .quiztime {
-    background-color: #FFF9D2;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: #87C0CD;
+    margin-top: 40px;
+    width: 70%;
     padding: 20px;
     color: black;
-    width: 50%;
-    justify-content: center;
-    margin: 10px 10px;
-    width: 90%;
+    text-align: center;
+}
+
+/*Lesson One Stuff*/
+
+#underlinethis {
+    text-decoration: underline;
+}
+
+#bold {
+    font-weight: bold;
+}
+
+#red {
+    color: red;
+}
+
+#center {
     text-align: center;
 }
