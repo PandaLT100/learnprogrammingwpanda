@@ -29,14 +29,13 @@
         <a class="lesslisb" href="/basichtml.html">Basic HTML Tags</a>
     </div>
     <div class="the-lesson">
-        <h3 class="lesshead">Welcome to my Web Development Course!</h3>
-        <h2>Lesson Video: </h2>
+        <h2>Lesson Video:</h2>
         <br>
-       <iframe></iframe>
+        <iframe></iframe>
         <br>
         <br>
         <hr>
-        <h2 class="lesson-title">Introduction</h2>
+        <h2 class="lesson-title"></h2>
         <h3 class="lesshead">What is Programming/Coding?</h3>
         <p></p>
         <h3 class="lesshead"></h3> 

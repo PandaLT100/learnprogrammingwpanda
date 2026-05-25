@@ -66,6 +66,14 @@ body {
     font-size:medium;
 }
 
+p {
+    font-size: 16px;
+}
+
+div {
+    font-size: 18px;
+}
+
 .navi {
     border-bottom: solid #113F67 10px;
     display: flex;
@@ -212,6 +220,8 @@ body {
 /*Sidebar*/
 
 .sidebar {
+    display: flex;
+    flex-direction: column;
     font-size: 15px;
     background-color: #87C0CD;
     width: 20%;
@@ -223,6 +233,7 @@ body {
 }
 
 .lesslisb {
+    margin: 5px auto;
     color: black;
     text-decoration: none;
     margin-bottom: 2px;
@@ -265,6 +276,16 @@ body {
     justify-self: center;
     max-width: 80%;
     max-height: auto;
+}
+
+code {
+    display: flex;
+    font-size: 15px;
+    margin: 10px;
+    background-color: rgb(28, 26, 26);
+    padding: 20px;
+    color:white;
+    border: solid white 2px;
 }
 
 /*Quiz*/

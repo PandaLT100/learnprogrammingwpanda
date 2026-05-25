@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>HTML | What is HTML?</title>
+</head>
+<body>
+<div class="navi">
+    <div class="navo">
+        <h5><a href="index.html" class="pwptitle">Programming With Panda</a></h5>
+    </div>
+    <div class="navlink">
+        <a class="navilink" href="index.html">Home</a>
+    </div>
+    <div class="navlink">
+        <a class="navilink" href="index.html">Contact</a>
+    </div>
+    <div>
+        <button type="button" id="dbutt" onclick = "darkMode()">Dark Mode</button>
+    </div>
+</div>
+
+<div class="lesswbar">
+    <div class="sidebar">
+        <h4>HTML Lessons</h4>
+        <a class="lesslisb" href="/whatishtml.html">Introduction</a>
+        <a class="lesslisb" href="/basichtml.html">Basic HTML Tags</a>
+    </div>
+    <div class="the-lesson">
+        <h2>Lesson Video: </h2>
+        <br>
+       <iframe></iframe>
+       <p>No video yet</p>
+        <br>
+        <br>
+        <hr>
+        <h2 class="lesson-title">Basic HTML Tags</h2>
+        <h3 class="lesshead">What is an HTML Teg?</h3>
+        <p>A <b>tag</b> is a piece of a command that you usually see within a greater than and less than symbol.</p>
+        
+        <code>&lt;p&gt;</code>
+        
+        <p>&lt;p&gt; is a basic HTML tag. The "p" stands for "paragraph" and when you use the command, you'll be making a paragraph. Although, in order to complete your command, you will need to convert it into an <b>element</b> by adding a <b>closing element</b> (as &lt;p&gt; is an <b>opening tag</b>) and the <b>content</b>.</p>
+        <p>Here is what a full <b>element</b> would look like.</p>
+        <code>
+            &lt;p&gt;This is my paragraph.&lt;p&gt;
+        </code>
+        
+        <p><b>NOTE</b>: Not every tag needs content or a closing tag.</p>
+        <p>Ready to learn more HTML tags?</p>
+        <h3 class="lesshead">HTML Tags</h3> 
+
+        <h4>Heading Tags</h4>
+        <p>For headers, you have 6 different sizes. h1 is the largest. h2 is second to largest. And h6 is the smallest heading.</p>
+        <code>
+            &lt;h1&gt;This is my heading&lt;h1&gt;
+        </code>
+        <p>Ex:</p>
+        <h1>This is my heading</h1>
+        <h2>This is h2</h2>
+        <h6>This is h6</h6>
+        <br>
+        ----
+
+        <h4>The Link Tag</h4>
+        <code>
+            &lt;a href="link.com"&gt;Add Some Text To Your Link!&lt;/a&gt;
+        </code>
+        <p>Ex: <a href="fakelink">Don't click this it's a fake link</a></p>
+
+        <h4>Break and Divider</h4>
+        <p>These tags do not need content or closing tags.</p>
+        <code>
+            &lt;br&gt; &lt; (br is the break)
+            &lt;hr&gt; (hr is the divider)
+        </code>
+        <p>Ex:</p>
+        <p>There's a break under this. Right below the break, there is a divider.</p>
+        <br>
+        <hr>
+        <br>
+
+        <h4>Bold and Italic Text</h4>
+        <code>
+            &lt;b&gt;You can also use "strong".&lt;/b&gt;
+        </code>
+        <code>
+            &lt;i&gt;You can also use "em" to "emphasize" the text&lt;/i&gt;
+        </code>
+        <p>Ex:</p>
+        <p>Hello this is my <strong>text</strong>. I want to <em>emphasize</em> that this is my text.</p>
+
+        <h4>The Ordered and Unordered List Tags</h4>
+        <p>These tags only tell the computer what kind of list you want. To add the list content, you must add the list (&lt;li&gt;) tag between the opening and closing ordered or unordered list tags.</p>
+        <code>
+            &lt;ol&gt; (this is an ordered list. unordered is "ul")
+        </code>
+        <code>
+            &lt;li&gt;The list content &lt;/li&gt;
+        </code>
+        <code>
+            &lt;/ol&gt;
+        </code>
+
+        <p>Ex:</p>
+        <p>This is an ordered list</p>
+        <ol>
+            <li>Eggs</li>
+            <li>Milk</li>
+            <li>Coffee</li>
+        </ol>
+
+        <p>Below is my unordered list</p>
+        <ul>
+            <li>Button number one</li>
+            <li>You can change the bullet using CSS</li>
+            <li>Otherwise, it will pop out as a normal bullet point</li>
+        </ul>
+
+        <h4>The Image Tag</h4>
+        <p>Like the break and divider tags, the image tag is a <b>self-closing</b> tag.</p>
+        <code>
+            &lt;img src="add the source of your image"&gt;
+        </code>
+        <p>"src" (source) is where you would put the link to your image, or (if you uploaded your image onto your code editor) the inside source link.</p>
+        <p>You will learn about how to use "src" as well as other attributes in the next lesson!</p>
+
+
+    </div>
+</div>
+<br>
+<div id="quiz">
+    <h1>Test Your Knowledge!</h1>
+    <div id="question"></div>
+    <div id="options"></div>
+    <button id="submit">Submit</button>
+  </div>
+
+<br>
+
+<script src="quiz.js"></script>
+<footer>
+    <div class="forbackbutt">
+<button type="button" class="backbutt" onclick="history.back()">Back</button>
+<button type="button" class="forbutt" href="./attributes.html">Next</button>
+    </div>
+</footer>
+</body>
+</html>
