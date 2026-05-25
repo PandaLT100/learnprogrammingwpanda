@@ -260,6 +260,13 @@ body {
     overflow: scroll;
 }
 
+ iframe {
+    display: flex;
+    justify-self: center;
+    max-width: 80%;
+    max-height: auto;
+}
+
 /*Quiz*/
 
 #quiz {
