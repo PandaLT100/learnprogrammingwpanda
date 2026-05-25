@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>HTML | What is HTML?</title>
+</head>
+<body>
+<div class="navi">
+    <div class="navo">
+        <h5><a href="index.html" class="pwptitle">Programming With Panda</a></h5>
+    </div>
+    <div class="navlink">
+        <a class="navilink" href="index.html">Home</a>
+    </div>
+    <div class="navlink">
+        <a class="navilink" href="index.html">Contact</a>
+    </div>
+    <div>
+        <button type="button" id="dbutt" onclick = "darkMode()">Dark Mode</button>
+    </div>
+</div>
+
+<div class="lesswbar">
+    <div class="sidebar">
+        <h4>HTML Lessons</h4>
+        <a class="lesslisb" href="/whatishtml.html">Introduction</a>
+        <a class="lesslisb" href="/basichtml.html">Basic HTML Tags</a>
+    </div>
+    <div class="the-lesson">
+        <h3 class="lesshead">Welcome to my Web Development Course!</h3>
+        <h2>Lesson Video: </h2>
+        <br>
+       <iframe></iframe>
+        <br>
+        <br>
+        <hr>
+        <h2 class="lesson-title">Introduction</h2>
+        <h3 class="lesshead">What is Programming/Coding?</h3>
+        <p></p>
+        <h3 class="lesshead"></h3> 
+        <p></p>
+
+    </div>
+</div>
+<br>
+<div id="quiz">
+    <h1>Test Your Knowledge!</h1>
+    <div id="question"></div>
+    <div id="options"></div>
+    <button id="submit">Submit</button>
+  </div>
+
+<br>
+
+<script src="script.js"></script>
+<footer>
+    <div class="forbackbutt">
+<button type="button" class="backbutt" onclick="history.back()">Back</button>
+<button type="button" class="forbutt" href="">Next</button>
+    </div>
+</footer>
+</body>
+</html>
